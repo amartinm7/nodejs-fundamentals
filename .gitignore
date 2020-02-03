@@ -3,4 +3,6 @@
 /dist
 /dist-zip
 .idea
+src/node_modules
+test/node_modules
 
