@@ -1,5 +1,5 @@
 
-#how to:
+# how to:
 
 to init a new project
 
@@ -39,3 +39,15 @@ execute the test with
 ```
 
 see the results
+
+
+# Using `npm link`
+
+Example:
+```bash
+cd <viking-project-root>
+npm link # create a global symlink to the local "viking" project
+cd <tudor-project-root>
+npm link viking # create a symlink locally to global viking symlink
+# voila! now we can develop the two projects side-by-side without   # having to worry about publishing either of them
+```
