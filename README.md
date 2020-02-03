@@ -7,13 +7,6 @@ to init a new project
 > npm init
 ```
 
-to run npm execute
-
-```bash 
-export NVM_DIR="/Users/antonio.martin/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-```
-
 install jest for testing as 
 
 ```bash  
