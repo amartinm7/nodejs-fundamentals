@@ -17,7 +17,7 @@ export NVM_DIR="/Users/antonio.martin/.nvm"
 install jest as 
 
 ```bash  
-> npm install jest`
+> npm install jest
 ```
 
 link the local lib if you have using the name of them, as example
