@@ -14,10 +14,10 @@ export NVM_DIR="/Users/antonio.martin/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
 
-install jest as 
+install jest for testing as 
 
 ```bash  
-> npm install jest
+> npm install --save-dev jest
 ```
 
 link the local lib if you have using the name of them, as example
