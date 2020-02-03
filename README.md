@@ -3,39 +3,39 @@
 
 to init a new project
 
-´´´bash 
+```bash 
 > npm init
-´´´
+```
 
 to run npm execute
 
-´´´bash  
+```bash 
 export NVM_DIR="/Users/antonio.martin/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-´´´
+```
 
 install jest as 
 
-´´´bash 
+```bash  
 > npm install jest`
-´´´
+```
 
 link the local lib if you have using the name of them, as example
 
-´´´bash 
+```bash 
 > npm link 
-´´´
+```
 
 setup the package.json the script.test property to "jest"
 
-´´´bash 
+```bash  
 > "test": "jest"
-´´´
+```
 
 execute the test with
 
-´´´bash 
+```bash 
 > npm test
-´´´
+```
 
 see the results
